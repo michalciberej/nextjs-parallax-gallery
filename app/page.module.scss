@@ -1,0 +1,23 @@
+.gallery {
+  height: 175dvh;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding: 2vw;
+  gap: 2vw;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+.blank {
+  height: 100dvh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  * {
+    font-size: xx-large;
+  }
+}
